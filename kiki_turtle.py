@@ -302,6 +302,9 @@ class Kiki:
         self._repeat_flag = False
         self._repeat_stack = []
         return self
+        
+    def done(self):
+        turtle.done()
 if __name__ == "__main__":
     kiki = Kiki()
     # kiki.noStorke().fill('red').arc(0,0,45, 90, 100).home()

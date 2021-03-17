@@ -34,8 +34,8 @@ kiki.mode('center').rect(100, 20).rect(20, 100).ht()
 ```
 Kiki-turtle 库的使用既保留了 turtle 库原本的用法，也支持链式操作
 
-### repate 和 times 方法配合绘制正方形
+### repeat 和 times 方法配合绘制正方形
 ```
-kiki.repeate().fd(100).rt(90).times(4)
+kiki.repeat().fd(100).rt(90).times(4)
 ```
 将前进 100 右转 90 重复 4 次，绘制正方形。

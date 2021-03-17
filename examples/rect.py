@@ -3,5 +3,5 @@ import turtle
 kiki = Kiki()
 
 kiki.rect(100, 20)
-
+# kiki.repeat
 turtle.mainloop()
